@@ -303,7 +303,6 @@ class PredictiveNode(Node):
                 ...
 
             compute_time.append((time.time() - t0))
-            num_model_calls.append(a_star.num_model_call)
             replan_count += 1
 
             # reset planning information

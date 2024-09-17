@@ -8,7 +8,7 @@ Code for our work [paper](https://arxiv.org/abs/2302.11601) "Autonomous Navigati
 
 ## Installation
 
-This project requires [ROS Humble](https://docs.ros.org/en/humble/Installation.html) and has been testbed on Ubuntu 22.04. with Python 3.10.
+This project requires [ROS Humble](https://docs.ros.org/en/humble/Installation.html) and has been testbed on Ubuntu 22.04. with Python 3.10. While not required, CUDA (Nvidia GPU) is highly recommended for our predictive planner.
 
 1. Clone the project
 ```bash
@@ -30,7 +30,7 @@ Run the following command to start the navigation node, which loads the environm
 python asv_navigation.py
 ```
 
-In a new terminal, run one of the following commands to start a specific planner. To run our planner:
+In a new terminal, run one of the following commands to start a specific planner. To run our predictive planner:
 ```bash
 python planners/predictive.py
 ```
