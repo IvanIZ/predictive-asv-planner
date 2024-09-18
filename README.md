@@ -82,5 +82,5 @@ After each trial, the navigation visualization and collision statistics can be f
 
 ## Acknowledgement
 
-A part of this implementation is built upon the [AUTO-IceNav project](https://github.com/original/repo) by Rodrigue de Schaetzen
+A part of this implementation is built upon the [AUTO-IceNav project](https://github.com/rdesc/AUTO-IceNav) by Rodrigue de Schaetzen
 . 
