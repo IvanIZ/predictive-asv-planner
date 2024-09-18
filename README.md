@@ -1,6 +1,9 @@
 # Autonomous Navigation in Ice-Covered Waters with Learned Predictions on Ship-Ice Interactions
-Code for our work [paper](https://arxiv.org/abs/2409.11326) "Autonomous Navigation in Ice-Covered Waters with Learned Predictions on Ship-Ice Interactions".
+Code for our [paper](https://arxiv.org/abs/2409.11326) "Autonomous Navigation in Ice-Covered Waters with Learned Predictions on Ship-Ice Interactions", currently under review for ICRA 2025.
 
+**Modifier**: [Ninghan Zhong](https://ivaniz.github.io/), University of Waterloo, Canada
+
+Planning and prediction example
 
 ![my image](./assets/demo_fig.png)
 
