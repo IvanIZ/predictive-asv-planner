@@ -14,12 +14,12 @@ from skimage.morphology import skeletonize
 import numpy as np
 from matplotlib import pyplot as plt
 
-from ship_ice_planner.src.cost_map import CostMap
-from ship_ice_planner.src.ship import Ship
-from ship_ice_planner.src.geometry.polygon import poly_centroid
-from ship_ice_planner.src.utils.plot import Plot
-from ship_ice_planner.src.utils.utils import Path
-from ship_ice_planner.src.utils.utils import DotDict, resample_path
+from submodules.src.cost_map import CostMap
+from submodules.src.ship import Ship
+from submodules.src.geometry.polygon import poly_centroid
+from submodules.src.utils.plot import Plot
+from submodules.src.utils.utils import Path
+from submodules.src.utils.utils import DotDict, resample_path
 import threading
 import copy
 

@@ -5,14 +5,14 @@ import time
 import numpy as np
 from matplotlib import pyplot as plt
 
-from ship_ice_planner.src.a_star_search import AStar
-from ship_ice_planner.src.cost_map import CostMap
-from ship_ice_planner.src.primitives import Primitives
-from ship_ice_planner.src.ship import Ship
-from ship_ice_planner.src.swath import generate_swath, view_all_swaths
-from ship_ice_planner.src.utils.plot import Plot
-from ship_ice_planner.src.utils.utils import Path
-from ship_ice_planner.src.utils.utils import DotDict
+from submodules.src.a_star_search import AStar
+from submodules.src.cost_map import CostMap
+from submodules.src.primitives import Primitives
+from submodules.src.ship import Ship
+from submodules.src.swath import generate_swath, view_all_swaths
+from submodules.src.utils.plot import Plot
+from submodules.src.utils.utils import Path
+from submodules.src.utils.utils import DotDict
 import threading
 import copy
 

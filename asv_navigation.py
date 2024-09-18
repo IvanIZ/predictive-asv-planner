@@ -12,15 +12,15 @@ from pymunk import Vec2d
 import threading
 from matplotlib import pyplot as plt, patches
 
-from ship_ice_planner.src.controller.dp import DP
-from ship_ice_planner.src.cost_map import CostMap
-from ship_ice_planner.src.evaluation.metrics import tracking_error, total_work_done
-from ship_ice_planner.src.geometry.polygon import poly_area
-from ship_ice_planner.src.ship import Ship
-from ship_ice_planner.src.utils.plot import Plot
-from ship_ice_planner.src.utils.sim_utils import generate_sim_obs
-from ship_ice_planner.src.utils.utils import DotDict
-from ship_ice_planner.src.occupancy_grid.occupancy_map import OccupancyGrid
+from submodules.src.controller.dp import DP
+from submodules.src.cost_map import CostMap
+from submodules.src.evaluation.metrics import tracking_error, total_work_done
+from submodules.src.geometry.polygon import poly_area
+from submodules.src.ship import Ship
+from submodules.src.utils.plot import Plot
+from submodules.src.utils.sim_utils import generate_sim_obs
+from submodules.src.utils.utils import DotDict
+from submodules.src.occupancy_grid.occupancy_map import OccupancyGrid
 
 # ROS Humble Related
 import rclpy
@@ -434,6 +434,7 @@ class Sim2DNode(Node):
                                         .format(ship_body.velocity.x, ship_body.velocity.y, ship_body.angular_velocity, t))
 
                 # frequency control to ensure the simulation does not exceed real-world time
+                # this is a quick work-around to ensure the navigation node and planner node are on the same time scale
                 self.rate_dt.sleep()
 
         finally:

@@ -79,3 +79,8 @@ After each trial, the navigation visualization and collision statistics can be f
 2. Code for training data generation 
 3. Training and testing scripts for the network
 
+
+## Acknowledgement
+
+A part of this implementation is built upon the [AUTO-IceNav project](https://github.com/original/repo) by Rodrigue de Schaetzen
+. 

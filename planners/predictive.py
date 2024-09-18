@@ -5,16 +5,16 @@ import time
 import numpy as np
 from matplotlib import pyplot as plt
 
-from ship_ice_planner.src.path_evaluator import PredictivePathEvaluator
-from ship_ice_planner.src.primitives import Primitives
-from ship_ice_planner.src.ship import Ship
-from ship_ice_planner.src.swath import generate_swath, view_all_swaths
-from ship_ice_planner.src.utils.plot import Plot
-from ship_ice_planner.src.utils.utils import Path
-from ship_ice_planner.src.occupancy_grid.occupancy_map import OccupancyGrid
-from ship_ice_planner.src.cost_map_occ import CostMap_Occupancy
-from ship_ice_planner.src.a_star_predictive import AStar_Predictive
-from ship_ice_planner.src.utils.utils import DotDict
+from submodules.src.path_evaluator import PredictivePathEvaluator
+from submodules.src.primitives import Primitives
+from submodules.src.ship import Ship
+from submodules.src.swath import generate_swath, view_all_swaths
+from submodules.src.utils.plot import Plot
+from submodules.src.utils.utils import Path
+from submodules.src.occupancy_grid.occupancy_map import OccupancyGrid
+from submodules.src.cost_map_occ import CostMap_Occupancy
+from submodules.src.a_star_predictive import AStar_Predictive
+from submodules.src.utils.utils import DotDict
 import threading
 import copy
 

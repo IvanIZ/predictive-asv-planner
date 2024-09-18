@@ -7,7 +7,7 @@ import time
 import numpy as np
 from matplotlib import pyplot as plt
 
-from ship_ice_planner.src.utils.utils import DotDict
+from submodules.src.utils.utils import DotDict
 import threading
 import copy
 
