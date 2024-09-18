@@ -1,5 +1,5 @@
 logs/
 
-ice_environments/
+ice_environments*
 
 __pycache__/
