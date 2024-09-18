@@ -72,3 +72,10 @@ All parameters are set in the config.yaml file in the `config` directory.
 
 #### Experiment Logs
 After each trial, the navigation visualization and collision statistics can be found in the ```logs``` directory. 
+
+
+## What is NOT yet included in this Release
+1. Network training data
+2. Code for training data generation 
+3. Training and testing scripts for the network
+
