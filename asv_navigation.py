@@ -454,7 +454,7 @@ class Sim2DNode(Node):
         if self.cfg.concentration not in [0.2, 0.3, 0.4, 0.5]:
             raise Exception("Invalid concentration value. Please check the config file. ") 
 
-        ddict = pickle.load(open('experiments/experiments_' + str(int(self.cfg.concentration * 100)) + '_200_r06_d40x12.pk', 'rb'))
+        ddict = pickle.load(open('ice_environments/experiments_' + str(int(self.cfg.concentration * 100)) + '_200_r06_d40x12.pk', 'rb'))
         print("Planner: ", self.cfg.planner, "; Concentration: ", self.cfg.concentration)
 
         ke_list = []

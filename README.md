@@ -23,6 +23,20 @@ pip install -r requirements.txt
 ```
 
 ## Usage
+
+### Download the ice field environments
+You may download the ice environments from [here](https://drive.google.com/file/d/1pVcaqDrTADsRagiR_6-3vZyh9Bg_5lsX/view?usp=sharing) (350MB). By defult the file should be under home/user/Downloads. Unzip the file
+```bash
+cd ~/Downloads
+unzip ~/Downloads/ice_environments.zip
+```
+
+Then move the extracted environments to the repository
+```bash
+mv ~/Downloads/ice_environments ~/predictive-asv-planner/
+```
+
+### Run ship navigations
 The simulation runs with two ROS nodes - a navigation node and planner node.
 
 Run the following command to start the navigation node, which loads the environments and runs the physics simulations
